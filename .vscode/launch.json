@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringholaApplication<springhola>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.springhola.SpringholaApplication",
+            "projectName": "springhola",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
