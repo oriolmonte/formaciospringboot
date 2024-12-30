@@ -15,7 +15,7 @@ public class JdbcdemoApplication {
 	public static void main(String[] args) {
 		ApplicationContext context = SpringApplication.run(JdbcdemoApplication.class, args);
 		Student s = context.getBean(Student.class);
-		s.setId(105); 
+		s.setId(106); 
 		s.setName("Oriol");
 		s.setMarks( 10);
 		StudentService service = context.getBean(StudentService.class);

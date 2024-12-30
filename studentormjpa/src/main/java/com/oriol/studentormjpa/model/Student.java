@@ -1,7 +1,10 @@
-package com.oriol.jdbcdemo.model;
+package com.oriol.studentormjpa.model;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 
 @Component
 @Scope("prototype")
@@ -40,5 +43,5 @@ public class Student {
         sb.append('}');
         return sb.toString();
     }
-
+    
 }
